@@ -36,6 +36,10 @@ let colorHair = [
         color: "#AF7B66",
         group: "某科学的超电磁炮"
     }, {
+        name: "朝比奈实玖瑠 茶",
+        color: "#B76F57",
+        group: "凉宫春日的忧郁"
+    }, {
         name: "电 棕",
         color: "#96673D",
         group: "舰队Collection"
@@ -48,6 +52,10 @@ let colorHair = [
         color: "#7F675A",
         group: "幸运☆星"
     }, {
+        name: "凉宫春日 棕",
+        color: "#5B3C37",
+        group: "凉宫春日的忧郁"
+    }, {
         name: "乐正绫 棕",
         color: "#533D40",
         group: "VOCALOID"
@@ -55,6 +63,10 @@ let colorHair = [
         name: "高良美幸 粉",
         color: "#F8CFD7",
         group: "幸运☆星"
+    }, {
+        name: "亚里亚 粉",
+        color: "#F4B8B0",
+        group: "绯弹的亚里亚"
     }, {
         name: "巡音流歌 粉",
         color: "#FAAFBE",
@@ -92,6 +104,10 @@ let colorHair = [
         color: "#EAAF79",
         group: "刀剑神域"
     }, {
+        name: "蕾姬 绿",
+        color: "#D3EFC7",
+        group: "绯弹的亚里亚"
+    }, {
         name: "朝田诗乃 蓝",
         color: "#B1EFD1",
         group: "刀剑神域"
@@ -112,9 +128,17 @@ let colorHair = [
         color: "#92C3A1",
         group: "碧蓝航线"
     }, {
+        name: "喜绿江美里 绿",
+        color: "#A3AD90",
+        group: "凉宫春日的忧郁"
+    }, {
         name: "成实唯 绿",
         color: "#587F7C",
         group: "幸运☆星"
+    }, {
+        name: "鹤屋 绿",
+        color: "#4B5D55",
+        group: "凉宫春日的忧郁"
     }, {
         name: "利姆鲁 蓝",
         color: "#BCE1EF",
@@ -132,6 +156,10 @@ let colorHair = [
         color: "#6B92CC",
         group: "幸运☆星"
     }, {
+        name: "朝仓凉子 蓝",
+        color: "#566280",
+        group: "凉宫春日的忧郁"
+    }, {
         name: "五河士道 蓝",
         color: "#626393",
         group: "约会大作战"
@@ -143,6 +171,10 @@ let colorHair = [
         name: "柊镜 柊司 紫",
         color: "#C4AED4",
         group: "幸运☆星"
+    }, {
+        name: "长门有希 紫",
+        color: "#A896A0",
+        group: "凉宫春日的忧郁"
     }, {
         name: "夜刀神十香 紫",
         color: "#524458",
