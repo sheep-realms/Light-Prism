@@ -132,6 +132,10 @@ let colorHair = [
         color: "#A3AD90",
         group: "凉宫春日的忧郁"
     }, {
+        name: "东风谷早苗 绿",
+        color: "#10A038",
+        group: "东方Project - 非想天则"
+    }, {
         name: "成实唯 绿",
         color: "#587F7C",
         group: "幸运☆星"
@@ -167,6 +171,14 @@ let colorHair = [
         name: "晓 蓝",
         color: "#4D435C",
         group: "舰队Collection"
+    }, {
+        name: "涅普迪努 紫",
+        color: "#FAD7F5",
+        group: "超次元游戏海王星"
+    }, {
+        name: "铃仙 紫",
+        color: "#DCC3FF",
+        group: "东方Project - 非想天则"
     }, {
         name: "柊镜 柊司 紫",
         color: "#C4AED4",
