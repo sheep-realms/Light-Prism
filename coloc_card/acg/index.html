@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../common/css/common.css">
+    <script src="../common/js/jquery-1.7.2.min.js"></script>
+    <script src="js/color.js"></script>
+</head>
+<body class="black">
+    <div id="content">
+        <div id="color-hair" class="color-card-list">
+
+        </div>
+        <div id="color-info">
+            <div class="color-info-content">
+                <div class="title">颜色名</div>
+                <div class="color-rgb-line"><div class="r"><div></div></div><div class="g"><div></div></div><div class="b"><div></div></div></div>
+                <div class="color-data">
+                    <div class="color-data-hex">HEX: <span id="color-data-hex">#000000</span></div>
+                    <div class="color-data-rgb">RGB: <span id="color-data-rgb">0, 0, 0</span></div>
+                    <div class="color-data-hsv">HSV: <span id="color-data-hsv">0°, 0, 0</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="../common/js/common.js"></script>
+    <script>
+        colorCardLoad(colorHair, $('#color-hair'));
+
+        $('.color-card').click(function() {
+            pageClickLoad($(this));
+        })
+    </script>
+</body>
+</html>
