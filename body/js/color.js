@@ -20,6 +20,10 @@ let colorHair = [
         color: "#FAF3EB",
         group: "碧蓝航线"
     }, {
+        name: "稀音 银",
+        color: "#EFE6D6",
+        group: "明日方舟"
+    }, {
         name: "洛天依 灰",
         color: "#8A8B9C",
         group: "VOCALOID"
@@ -39,6 +43,10 @@ let colorHair = [
         name: "朝比奈实玖瑠 茶",
         color: "#B76F57",
         group: "凉宫春日的忧郁"
+    }, {
+        name: "蛇屠箱 棕",
+        color: "#A78E7E",
+        group: "明日方舟"
     }, {
         name: "电 棕",
         color: "#96673D",
@@ -88,6 +96,10 @@ let colorHair = [
         color: "#E56179",
         group: "约会大作战"
     }, {
+        name: "空 金",
+        color: "#F9E9B7",
+        group: "明日方舟"
+    }, {
         name: "镜音双子 金",
         color: "#FFF380",
         group: "VOCALOID"
@@ -120,10 +132,6 @@ let colorHair = [
         color: "#8CCCB0",
         group: "幸运☆星"
     }, {
-        name: "初音未来 绿",
-        color: "#39C5BB",
-        group: "VOCALOID"
-    }, {
         name: "明石 绿",
         color: "#92C3A1",
         group: "碧蓝航线"
@@ -136,6 +144,14 @@ let colorHair = [
         color: "#10A038",
         group: "东方Project - 非想天则"
     }, {
+        name: "初音未来 绿",
+        color: "#39C5BB",
+        group: "VOCALOID"
+    }, {
+        name: "星熊 绿",
+        color: "#52B59C",
+        group: "明日方舟"
+    }, {
         name: "成实唯 绿",
         color: "#587F7C",
         group: "幸运☆星"
@@ -143,6 +159,10 @@ let colorHair = [
         name: "鹤屋 绿",
         color: "#4B5D55",
         group: "凉宫春日的忧郁"
+    }, {
+        name: "水月 蓝",
+        color: "#C7E8F8",
+        group: "明日方舟"
     }, {
         name: "利姆鲁 蓝",
         color: "#BCE1EF",
@@ -160,13 +180,17 @@ let colorHair = [
         color: "#6B92CC",
         group: "幸运☆星"
     }, {
-        name: "朝仓凉子 蓝",
-        color: "#566280",
-        group: "凉宫春日的忧郁"
+        name: "陈 蓝",
+        color: "#6979BB",
+        group: "明日方舟"
     }, {
         name: "五河士道 蓝",
         color: "#626393",
         group: "约会大作战"
+    }, {
+        name: "朝仓凉子 蓝",
+        color: "#566280",
+        group: "凉宫春日的忧郁"
     }, {
         name: "晓 蓝",
         color: "#4D435C",
