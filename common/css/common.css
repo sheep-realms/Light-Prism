@@ -58,6 +58,9 @@ h2 {
     text-indent: 2em;
     margin-bottom: 0.65em;
     line-height: 26px;
+    color: var(--color-text);
+    transition: color 2s;
+    text-decoration: none;
 }
 
 .color-card-list a {
