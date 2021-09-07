@@ -28,6 +28,10 @@ let colorHair = [
         color: "#8A8B9C",
         group: "VOCALOID"
     }, {
+        name: "长岛 黑",
+        color: "#715F6B",
+        group: "碧蓝航线"
+    }, {
         name: "田村日和 黑",
         color: "#6B6370",
         group: "幸运☆星"
@@ -76,9 +80,17 @@ let colorHair = [
         color: "#F4B8B0",
         group: "绯弹的亚里亚"
     }, {
+        name: "萨拉托加 粉",
+        color: "#F0B5BD",
+        group: "碧蓝航线"
+    }, {
         name: "巡音流歌 粉",
         color: "#FAAFBE",
         group: "VOCALOID"
+    }, {
+        name: "圣地亚哥 红",
+        color: "#FB8390",
+        group: "碧蓝航线"
     }, {
         name: "小神晶 粉",
         color: "#EF8D9A",
@@ -95,6 +107,10 @@ let colorHair = [
         name: "五河琴里 红",
         color: "#E56179",
         group: "约会大作战"
+    }, {
+        name: "史尔特尔 红",
+        color: "#B53939",
+        group: "明日方舟"
     }, {
         name: "空 金",
         color: "#F9E9B7",
@@ -134,6 +150,10 @@ let colorHair = [
     }, {
         name: "明石 绿",
         color: "#92C3A1",
+        group: "碧蓝航线"
+    }, {
+        name: "萤火虫 绿",
+        color: "#ADB6B3",
         group: "碧蓝航线"
     }, {
         name: "喜绿江美里 绿",
@@ -203,6 +223,10 @@ let colorHair = [
         name: "铃仙 紫",
         color: "#DCC3FF",
         group: "东方Project - 非想天则"
+    }, {
+        name: "标枪 紫",
+        color: "#E3C3FB",
+        group: "碧蓝航线"
     }, {
         name: "柊镜 柊司 紫",
         color: "#C4AED4",
