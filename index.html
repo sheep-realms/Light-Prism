@@ -4,10 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../common/css/common.css">
+    <title>光棱镜</title>
+    <link rel="stylesheet" href="common/css/common.css">
+    <script src="common/js/jquery-1.7.2.min.js"></script>
+    <script src="memu.js"></script>
 </head>
-<body>
-    <a href="acg/index.html">acg/index.html</a>
+<body class="black">
+    <div id="content">
+        <div class="color-card-list">
+            <h2>关于 光棱镜</h2>
+            <p>光棱镜是一个收集各类 ACG 元素配色的项目，以供欣赏与参考。收录的颜色包括发色、瞳色、肤色、服装配色等等。</p>
+            <p>我们采集了许多 ACG 人物的颜色，尽可能地选用了官方配色和官方配色差异较小的人物。人物名称后面的颜色名称仅供参考，对于难以定义的颜色，我们尊重原作者的设定。</p>
+
+            <h2>子项目</h2>
+            <div id="color-menu1"></div>
+
+            <h2>一些吐槽</h2>
+            <p>其实这些也不一定就是标准颜色，也不能说哪个颜色不好看，每个人的审美都是不同的，能有自己最喜欢的颜色那是最好。</p>
+            <p><s>但我不得不吐槽一下ZUN绘的配色简直灾难！</s></p>
+            <p>为什么这个项目叫做“光棱镜”？为什么没有 CMKY ？正如标题所表达的，这是一个展现光的世界的项目，是不考虑印刷的。现实世界的颜色没有那么丰富多彩，但是我们可以在虚拟的世界中找到自己最喜欢的颜色。</p>
+
+            <h2>授权协议</h2>
+            <p>本站全部内容均在知识共享 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh">署名-非商业性使用-相同方式共享 3.0 (CC BY-NC-SA 3.0)</a> 许可协议下提供。</p>
+
+            <h2>相关链接</h2>
+            <div id="color-menu99"></div>
+        </div>
+        <div id="color-info">
+            <div class="color-info-content">
+                <div class="title">光棱镜</div>
+                <div class="color-rgb-line"><div class="r"><div></div></div><div class="g"><div></div></div><div class="b"><div></div></div></div>
+                <footer>
+                    <p><a href="index.html">光棱镜</a> © 2021 <a href="https://github.com/sheep-realms" target="_blank">Sheep-realms</a> | <a href="https://github.com/sheep-realms/Light-Prism" target="_blank">GitHub</a> | <a href="javascript: void(0);" id="color-gray">切换饱和度</a></p>
+                </footer>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="common/js/common.js"></script>
+    <script>
+        colorCardMenuLoad(colorMenu1, $('#color-menu1'));
+        colorCardMenuLoad(colorMenu99, $('#color-menu99'));
+    </script>
 </body>
 </html>

@@ -82,6 +82,13 @@ function colorCardLoad(colorList, $sel) {
     });
 }
 
+function colorCardMenuLoad(colorList, $sel) {
+    colorListSetRgb(colorList);
+    colorList.forEach(e => {
+        $sel.append('<a href="'+e.url+'"><div class="color-card" data-color="'+e.color+'" data-name="'+e.name+'" data-black="'+e.black+'" style="--color:'+e.color+';--r:'+e.rgb100[0]+'%;--g:'+e.rgb100[1]+'%;--b:'+e.rgb100[2]+'%;"><div class="title">'+e.name+'</div><div class="color">'+e.group+'</div><div class="color-rgb-line"><div class="r"><div></div></div><div class="g"><div></div></div><div class="b"><div></div></div></div></div></a>');
+    });
+}
+
 function pageClickLoad($that) {
     $('body').css('background-color', $that.data('color'));
     $('#color-info .title').text($that.data('name'));
@@ -92,10 +99,18 @@ function pageClickLoad($that) {
     let rgbl = $that.data('color').colorRgb();
     let hsv = rgbtohsv(rgbl);
     $('#color-data-rgb').text(rgbl[0] + ', ' + rgbl[1] + ', ' + rgbl[2]);
-    $('#color-data-hsv').text(hsv[0] + '°, ' + hsv[1] + ', ' + hsv[2]);
+    $('#color-data-hsv').text(hsv[0] + ', ' + hsv[1] + ', ' + hsv[2]);
     if ($that.data('black') == 1) {
         $('body').addClass('black');
     } else {
         $('body').removeClass('black');
     }
 }
+
+$('#color-gray').click(function() {
+    if ($('html').hasClass('gray')) {
+        $('html').removeClass('gray');
+    } else {
+        $('html').addClass('gray');
+    }
+});

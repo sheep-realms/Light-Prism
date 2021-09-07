@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+html {
+    filter: none;
+}
+
+html.gray {
+    filter: grayscale(1);
+}
+
 body {
     background-color: #EEE;
     transition: background-color 2s;
@@ -42,6 +50,24 @@ h2 {
     width: 670px;
     text-align: center;
     padding: 50px 0;
+}
+
+.color-card-list p {
+    font-size: 16px;
+    text-align: left;
+    text-indent: 2em;
+    margin-bottom: 0.65em;
+    line-height: 26px;
+}
+
+.color-card-list a {
+    color: var(--color-text);
+    transition: color 2s;
+    text-decoration: none;
+}
+
+.color-card-list a:hover {
+    text-decoration: underline;
 }
 
 #color-info {
