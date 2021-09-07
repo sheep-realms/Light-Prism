@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户界面 - 光棱镜</title>
+    <link rel="stylesheet" href="../common/css/common.css">
+    <script src="../common/js/jquery-1.7.2.min.js"></script>
+    <script src="js/color.js"></script>
+</head>
+<body class="black">
+    <div id="content">
+        <div class="color-card-list">
+            <h2>功能色</h2>
+            <div id="color-hair"></div>
+
+            <h2>结语</h2>
+            <p>每一款配色方案都是设计师们精心构思的结晶。UI设计的初衷除了体现品牌文化、展现出赏心悦目的界面，更应当追求易用性。图形与颜色的信息传递效率往往要高于文字，优秀的UI设计在美化界面的同时也使得产品方便易用。</p>
+        </div>
+        <div id="color-info">
+            <div class="color-info-content">
+                <div class="title">用户界面</div>
+                <div class="color-rgb-line"><div class="r"><div></div></div><div class="g"><div></div></div><div class="b"><div></div></div></div>
+                <div class="color-data">
+                    <div class="color-data-hex">HEX: <span id="color-data-hex">#000000</span></div>
+                    <div class="color-data-rgb">RGB: <span id="color-data-rgb">0, 0, 0</span></div>
+                    <div class="color-data-hsv">HSV: <span id="color-data-hsv">0, 0, 0</span></div>
+                </div>
+                <footer>
+                    <p>每一款配色方案都是设计师们精心构思的结晶。</p>
+                    <p>我们采集了部分优秀案例的配色方案，如果您感兴趣，我们备注了这些配色方案的来源，您可以自行查阅。</p>
+                    <p><a href="../index.html">光棱镜</a> © 2021 <a href="https://github.com/sheep-realms" target="_blank">Sheep-realms</a> | <a href="https://github.com/sheep-realms/Light-Prism" target="_blank">GitHub</a> | <a href="javascript: void(0);" id="color-gray">切换饱和度</a></p>
+                </footer>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="../common/js/common.js"></script>
+    <script>
+        colorCardLoad(colorFun, $('#color-hair'));
+
+        $('.color-card').click(function() {
+            pageClickLoad($(this));
+        })
+    </script>
+</body>
+</html>

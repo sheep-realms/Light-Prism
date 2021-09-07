@@ -10,10 +10,15 @@ let colorMenu1 = [
         group: "这里暂时没啥东西",
         url: "#"
     }, {
-        name: "空位",
+        name: "印象色",
         color: "#888888",
         group: "这里暂时没啥东西",
         url: "#"
+    }, {
+        name: "用户界面",
+        color: "#49AA19",
+        group: "功能色",
+        url: "ui/index.html"
     }
 ]
 
