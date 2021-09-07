@@ -28,9 +28,17 @@ let colorHair = [
         color: "#8A8B9C",
         group: "VOCALOID"
     }, {
+        name: "水上麻衣 黑",
+        color: "#746F69",
+        group: "日常"
+    }, {
         name: "长岛 黑",
         color: "#715F6B",
         group: "碧蓝航线"
+    }, {
+        name: "本条枫 黑",
+        color: "#706970",
+        group: "怕痛少女防御特化"
     }, {
         name: "田村日和 黑",
         color: "#6B6370",
@@ -40,6 +48,22 @@ let colorHair = [
         color: "#39393C",
         group: "刀剑神域"
     }, {
+        name: "相生祐子 棕",
+        color: "#B69681",
+        group: "日常"
+    }, {
+        name: "金刚叶 棕",
+        color: "#B7958C",
+        group: "干物妹小埋"
+    }, {
+        name: "白峰理沙 棕",
+        color: "#AD948B",
+        group: "怕痛少女防御特化"
+    }, {
+        name: "蛇屠箱 棕",
+        color: "#A78E7E",
+        group: "明日方舟"
+    }, {
         name: "御坂美琴 茶",
         color: "#AF7B66",
         group: "某科学的超电磁炮"
@@ -47,10 +71,6 @@ let colorHair = [
         name: "朝比奈实玖瑠 茶",
         color: "#B76F57",
         group: "凉宫春日的忧郁"
-    }, {
-        name: "蛇屠箱 棕",
-        color: "#A78E7E",
-        group: "明日方舟"
     }, {
         name: "电 棕",
         color: "#96673D",
@@ -112,6 +132,10 @@ let colorHair = [
         color: "#B53939",
         group: "明日方舟"
     }, {
+        name: "海老名菜菜 红",
+        color: "#703838",
+        group: "干物妹小埋"
+    }, {
         name: "空 金",
         color: "#F9E9B7",
         group: "明日方舟"
@@ -120,9 +144,21 @@ let colorHair = [
         color: "#FFF380",
         group: "VOCALOID"
     }, {
+        name: "土间埋 金",
+        color: "#FACEAB",
+        group: "干物妹小埋"
+    }, {
         name: "帕特莉西亚 金",
         color: "#FCD793",
         group: "幸运☆星"
+    }, {
+        name: "安中榛名 金",
+        color: "#EBCE88",
+        group: "日常"
+    }, {
+        name: "博士 橙",
+        color: "#EEBD94",
+        group: "日常"
     }, {
         name: "峰岸绫乃 橙",
         color: "#F8B885",
@@ -188,9 +224,17 @@ let colorHair = [
         color: "#BCE1EF",
         group: "转生史莱姆"
     }, {
+        name: "长野原美绪 棕",
+        color: "#A6BEE0",
+        group: "日常"
+    }, {
         name: "乌贼娘 蓝",
         color: "#8AC0EE",
         group: "侵略!乌贼娘"
+    }, {
+        name: "希尔芬福特 蓝",
+        color: "#7AB2EB",
+        group: "干物妹小埋"
     }, {
         name: "冰芽川四糸乃 蓝",
         color: "#69A8DE",
@@ -211,6 +255,10 @@ let colorHair = [
         name: "朝仓凉子 蓝",
         color: "#566280",
         group: "凉宫春日的忧郁"
+    }, {
+        name: "本场切绘 蓝",
+        color: "#4C4869",
+        group: "干物妹小埋"
     }, {
         name: "晓 蓝",
         color: "#4D435C",
