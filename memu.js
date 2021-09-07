@@ -9,7 +9,11 @@ let colorMenu1 = [
         color: "#888888",
         group: "这里暂时没啥东西",
         url: "#"
-    }, {
+    }
+]
+
+let colorMenu2 = [
+    {
         name: "印象色",
         color: "#888888",
         group: "这里暂时没啥东西",

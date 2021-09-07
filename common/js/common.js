@@ -114,3 +114,11 @@ $('#color-gray').click(function() {
         $('html').addClass('gray');
     }
 });
+
+$('#color-rotate').click(function() {
+    if ($('body').hasClass('rotate')) {
+        $('body').removeClass('rotate');
+    } else {
+        $('body').addClass('rotate');
+    }
+});
