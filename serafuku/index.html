@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>水手服 - 光棱镜</title>
+    <link rel="stylesheet" href="../common/css/common.css">
+    <script src="../common/js/jquery-1.7.2.min.js"></script>
+    <script src="js/color.js"></script>
+</head>
+<body class="black">
+    <div id="content">
+        <div class="color-card-list">
+            <h2 id="h2-serafuku">领 · 袖口 · 裙</h2>
+            <div id="color-serafuku"></div>
+
+            <h2 id="h2-sukafu">领巾</h2>
+            <div id="color-sukafu"></div>
+
+            <h2 id="h2-eri">领</h2>
+
+            <h2 id="h2-sukato">裙</h2>
+        </div>
+        <div id="color-info">
+            <div class="color-info-content">
+                <div class="title">水手服</div>
+                <div class="color-rgb-line"><div class="r"><div></div></div><div class="g"><div></div></div><div class="b"><div></div></div></div>
+                <div class="color-data">
+                    <div class="color-data-hex">HEX: <span id="color-data-hex">#000000</span></div>
+                    <div class="color-data-rgb">RGB: <span id="color-data-rgb">0, 0, 0</span></div>
+                    <div class="color-data-hsv">HSV: <span id="color-data-hsv">0, 0, 0</span></div>
+                </div>
+                <div class="color-index">
+                    <ul>
+                        <li><a href="#h2-serafuku">领 · 袖口 · 裙</a></li>
+                        <li><a href="#h2-sukafu">领巾</a></li>
+                        <li><a href="#h2-eri">领</a></li>
+                        <li><a href="#h2-sukato">裙</a></li>
+                    </ul>
+                </div>
+                <footer>
+                    <p>我们采集了许多 ACG 人物的颜色，尽可能地选用了官方配色和官方配色差异较小的人物。由于 ACG 作品中一件服饰可能被应用于多个角色，此处以服饰相关对象命名。</p>
+                    <p><a href="../index.html">光棱镜</a> © 2021 <a href="https://github.com/sheep-realms" target="_blank">Sheep-realms</a> | <a href="https://github.com/sheep-realms/Light-Prism" target="_blank">GitHub</a> | <a href="javascript: void(0);" id="color-gray">切换饱和度</a> | <a href="javascript: void(0);" id="color-rotate">转一转</a></p>
+                </footer>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="../common/js/common.js"></script>
+    <script>
+        colorCardLoad(colorSerafuku, $('#color-serafuku'));
+        colorCardLoad(colorSukafu, $('#color-sukafu'));
+
+        $('.color-card').click(function() {
+            pageClickLoad($(this));
+        })
+    </script>
+</body>
+</html>

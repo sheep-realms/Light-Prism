@@ -6,9 +6,9 @@ let colorMenu1 = [
         url: "body/index.html"
     }, {
         name: "水手服",
-        color: "#888888",
-        group: "这里暂时没啥东西",
-        url: "#"
+        color: "#CA405A",
+        group: "底色 · 领 · 领巾 · 裙",
+        url: "serafuku/index.html"
     }
 ]
 
