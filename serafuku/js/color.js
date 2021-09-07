@@ -28,7 +28,7 @@ let colorSerafuku = [
 
 let colorSukafu = [
     {
-        name: "陵樱学园 东季",
+        name: "陵樱学园 冬季",
         color: "#DA6285",
         group: "幸运☆星"
     }, {
