@@ -40,6 +40,15 @@ h2 {
     transition: color 2s, border 2s;
 }
 
+.hover-show {
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.hover-show:hover {
+    opacity: 1;
+}
+
 #content {
     width: 1200px;
     margin: 0 auto;
@@ -212,6 +221,13 @@ h2 {
     height: var(--b);
 }
 
+.color-index {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    font-size: 22px;
+}
+
 footer {
     color: var(--color-text2);
     transition: color 2s;
@@ -219,6 +235,34 @@ footer {
     bottom: 50px;
     left: 50px;
     font-size: 14px;
+}
+
+.color-index a {
+    color: var(--color-text);
+    transition: color 2s, border 2s;
+    text-decoration: none;
+    display: inline-block;
+    border-left: var(--color-text) 1px solid;
+    padding-left: 0.35em;
+    line-height: 36px;
+    min-width: 200px;
+}
+
+.color-index li {
+    opacity: 0.45;
+    transition: opacity .3s;
+}
+
+.color-index li:hover {
+    opacity: 1;
+}
+
+.color-index ul {
+    /* list-style-type: disclosure-closed; */
+    list-style-type: none;
+    padding-left: 2px;
+    color: var(--color-text2);
+    transition: color 2s;
 }
 
 footer a {
