@@ -129,8 +129,8 @@ h2 {
 }
 
 .color-card .title {
-    top: 15px;
-    left: 45px;
+    top: 13px;
+    left: 48px;
     font-size: 26px;
     color: var(--color);
     text-shadow: rgb(255 255 255 / 45%) 0 0 2px;
