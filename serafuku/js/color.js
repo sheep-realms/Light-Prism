@@ -32,6 +32,10 @@ let colorSukafu = [
         color: "#DA6285",
         group: "幸运☆星"
     }, {
+        name: "东京武侦高校",
+        color: "#C93B31",
+        group: "绯弹的亚里亚"
+    }, {
         name: "第六驱逐舰队",
         color: "#BB5644",
         group: "舰队Collection"

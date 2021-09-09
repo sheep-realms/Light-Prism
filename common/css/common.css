@@ -106,6 +106,24 @@ h2 {
     transition: border 2s;
 }
 
+#bar-mobile {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    color: var(--color-text);
+    background-color: var(--color-bar-back);
+    transition: background-color 2s, color 2s;
+    text-align: center;
+    font-size: 14px;
+    backdrop-filter: blur(10px);
+}
+
+#bar-mobile p {
+    margin: 15px;
+}
+
 #content {
     width: 1200px;
     margin: 0 auto;
@@ -116,6 +134,34 @@ h2 {
     width: 670px;
     text-align: center;
     padding: 50px 0;
+}
+
+@media only screen and (max-width:1220px){
+	#content {
+        width: calc(100vw - 20px);
+    }
+
+    .color-card-list {
+        width: calc(100vw - 530px - 20px);
+    }
+}
+
+@media only screen and (max-width:990px){
+	#content {
+        width: calc(100vw - 20px);
+    }
+
+    .color-card-list {
+        width: calc(100vw - 20px);
+    }
+
+    #color-info {
+        display: none;
+    }
+
+    #bar-mobile {
+        display: block;
+    }
 }
 
 .color-card-list p {
