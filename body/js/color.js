@@ -66,11 +66,15 @@ let colorHair = [
     }, {
         name: "御坂美琴 茶",
         color: "#AF7B66",
-        group: "某科学的超电磁炮"
+        group: "魔法禁书目录"
     }, {
         name: "朝比奈实玖瑠 茶",
         color: "#B76F57",
         group: "凉宫春日的忧郁"
+    }, {
+        name: "丹生谷森夏 棕",
+        color: "#9C6744",
+        group: "中二病也要谈恋爱"
     }, {
         name: "电 棕",
         color: "#96673D",
@@ -96,6 +100,10 @@ let colorHair = [
         color: "#F8CFD7",
         group: "幸运☆星"
     }, {
+        name: "草野优衣 粉",
+        color: "#FABDC2",
+        group: "公主连结"
+    }, {
         name: "亚里亚 粉",
         color: "#F4B8B0",
         group: "绯弹的亚里亚"
@@ -104,9 +112,17 @@ let colorHair = [
         color: "#F0B5BD",
         group: "碧蓝航线"
     }, {
+        name: "鹿目圆 粉",
+        color: "#F9B7B7",
+        group: "魔法少女小圆"
+    }, {
         name: "巡音流歌 粉",
         color: "#FAAFBE",
         group: "VOCALOID"
+    }, {
+        name: "绮菈绮菈 粉",
+        color: "#FF91D5",
+        group: "多娜多娜"
     }, {
         name: "圣地亚哥 红",
         color: "#FB8390",
@@ -120,6 +136,14 @@ let colorHair = [
         color: "#EC7F86",
         group: "幸运☆星"
     }, {
+        name: "月咏小萌 粉",
+        color: "#DB949A",
+        group: "魔法禁书目录"
+    }, {
+        name: "七宫智音 粉",
+        color: "#B8626F",
+        group: "中二病也要谈恋爱"
+    }, {
         name: "夏娜 红",
         color: "#FA5768",
         group: "灼眼的夏娜"
@@ -128,9 +152,17 @@ let colorHair = [
         color: "#E56179",
         group: "约会大作战"
     }, {
+        name: "克子 红",
+        color: "#DC4D61",
+        group: "潜行吧!奈亚子"
+    }, {
         name: "史尔特尔 红",
         color: "#B53939",
         group: "明日方舟"
+    }, {
+        name: "栉枝实乃梨 红",
+        color: "#AC4654",
+        group: "龙与虎"
     }, {
         name: "海老名菜菜 红",
         color: "#703838",
@@ -140,9 +172,21 @@ let colorHair = [
         color: "#F9E9B7",
         group: "明日方舟"
     }, {
+        name: "爱丽丝 金",
+        color: "#FAFAAF",
+        group: "东方Project - 非想天则"
+    }, {
+        name: "三千院凪 金",
+        color: "#FEF984",
+        group: "旋风管家"
+    }, {
         name: "镜音双子 金",
         color: "#FFF380",
         group: "VOCALOID"
+    }, {
+        name: "爱丽丝 金",
+        color: "#FFF4A4",
+        group: "刀剑神域"
     }, {
         name: "土间埋 金",
         color: "#FACEAB",
@@ -151,6 +195,10 @@ let colorHair = [
         name: "帕特莉西亚 金",
         color: "#FCD793",
         group: "幸运☆星"
+    }, {
+        name: "ALyCE 金",
+        color: "#F8CE5E",
+        group: "多娜多娜"
     }, {
         name: "安中榛名 金",
         color: "#EBCE88",

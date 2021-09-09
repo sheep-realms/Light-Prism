@@ -49,6 +49,63 @@ h2 {
     opacity: 1;
 }
 
+#bar-top {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 100;
+}
+
+#bar-top::after {
+    content: "";
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: -50px;
+    display: block;
+    background-image: linear-gradient(to bottom, var(--color-bar), transparent);
+    transition: top .5s;
+    cursor: pointer;
+}
+
+#bar-top:hover::after {
+    top: 0px;
+}
+
+#btn-top {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    /* border: var(--color-text) 1px solid; */
+    top: 10px;
+    left: calc(50vw - 25px);
+    z-index: 100;
+    overflow: hidden;
+    transform: scale(0.75) rotate(45deg);
+    /* background-color: var(--color-bar-back); */
+    opacity: 1;
+    transition: background-color 2s, border 2s, transform .5s, top .5s, opacity .5s;
+    pointer-events: none;
+}
+
+#btn-top.close {
+    transform: scale(0.35) rotate(45deg);
+    top: -50px;
+    opacity: 0;
+}
+
+#btn-top>div {
+    border-top: var(--color-text) 3px solid;
+    border-left: var(--color-text) 3px solid;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    transition: border 2s;
+}
+
 #content {
     width: 1200px;
     margin: 0 auto;

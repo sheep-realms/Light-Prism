@@ -122,3 +122,15 @@ $('#color-rotate').click(function() {
         $('body').addClass('rotate');
     }
 });
+
+$('#bar-top').mouseover(function(){
+    $('#btn-top').removeClass('close');
+});
+
+$('#bar-top').mouseout(function(){
+    $('#btn-top').addClass('close');
+});
+
+$('#bar-top').click(function(){
+    scrollTo(0,0);
+});
