@@ -133,7 +133,7 @@ h2 {
 .color-card-list {
     width: 670px;
     text-align: center;
-    padding: 50px 0;
+    padding: 50px 0 300px 0;
 }
 
 @media only screen and (max-width:1220px){
@@ -153,6 +153,7 @@ h2 {
 
     .color-card-list {
         width: calc(100vw - 20px);
+        padding: 50px 0;
     }
 
     #color-info {
