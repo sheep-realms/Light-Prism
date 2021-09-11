@@ -337,3 +337,55 @@ let colorHair = [
         group: "约会大作战"
     }
 ]
+
+let colorSkin = [
+    {
+        name: "凌波",
+        color: "#FFF9E7",
+        group: "碧蓝航线"
+    }, {
+        name: "明石",
+        color: "#FCF6E6",
+        group: "碧蓝航线"
+    }, {
+        name: "爱丽丝",
+        color: "#FEF1E1",
+        group: "刀剑神域"
+    }, {
+        name: "柊镜 柊司",
+        color: "#FDE0CE",
+        group: "幸运☆星"
+    }, {
+        name: "泉此方",
+        color: "#F3D4B8",
+        group: "幸运☆星"
+    }, {
+        name: "克洛伊",
+        color: "#D7A78E",
+        group: "魔法少女☆伊莉雅"
+    }
+]
+
+let colorEye = [
+    {
+        name: "凌波 红",
+        color: "#EC4724",
+        group: "碧蓝航线"
+    }, {
+        name: "明石 黄",
+        color: "#DCB64E",
+        group: "碧蓝航线"
+    }, {
+        name: "泉此方 绿",
+        color: "#26592E",
+        group: "幸运☆星"
+    }, {
+        name: "爱丽丝 蓝",
+        color: "#6577CD",
+        group: "刀剑神域"
+    }, {
+        name: "柊镜 柊司 蓝",
+        color: "#454E93",
+        group: "幸运☆星"
+    }
+]

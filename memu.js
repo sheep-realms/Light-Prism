@@ -2,7 +2,7 @@ let colorMenu1 = [
     {
         name: "身体",
         color: "#6B92CC",
-        group: "头发 · 皮肤 · 眼睛",
+        group: "头发 · 皮肤 · 瞳",
         url: "body/index.html"
     }, {
         name: "水手服",

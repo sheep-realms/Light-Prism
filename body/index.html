@@ -17,8 +17,10 @@
             <div id="color-hair"></div>
 
             <h2 id="h2-skin">皮肤</h2>
+            <div id="color-skin"></div>
 
-            <h2 id="h2-eye">眼睛</h2>
+            <h2 id="h2-eye">瞳</h2>
+            <div id="color-eye"></div>
         </div>
         <div id="color-info">
             <div class="color-info-content">
@@ -33,7 +35,7 @@
                     <ul>
                         <li><a href="#h2-hair">头发</a></li>
                         <li><a href="#h2-skin">皮肤</a></li>
-                        <li><a href="#h2-eye">眼睛</a></li>
+                        <li><a href="#h2-eye">瞳</a></li>
                     </ul>
                 </div>
                 <footer>
@@ -49,6 +51,8 @@
     <script src="../common/js/common.js"></script>
     <script>
         colorCardLoad(colorHair, $('#color-hair'));
+        colorCardLoad(colorSkin, $('#color-skin'));
+        colorCardLoad(colorEye, $('#color-eye'));
 
         $('.color-card').click(function() {
             pageClickLoad($(this));
